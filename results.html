@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Coding Quiz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="highscores.html" class="inline">View Scores</a>
+            <a href="index.html" class="inline">Retake Quiz</a>
+        </header>
+        <section>
+            <div class="question">
+                <p id="text" class="final-score">Final Score: </p>
+            </div>
+
+            <h1 class="initial-text">Please enter and submit an intitial</h1>
+            <form class="center">
+                <input type="text" id="input-field" class="input-field">
+              
+                <input type="submit" value="Submit" id="submit">
+              </form>
+          
+            <div id="button-div" class="inline">
+                <h1 id="result"></h1>
+                <!--<button id="btn" onclick="nextQuestion();">Next Question</button>-->
+            </div>
+        </section>
+        <script src="./assets/js/results.js" async defer></script>
+    </body>
+</html>
